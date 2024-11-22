@@ -1,0 +1,46 @@
+.canvas {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.roleselect {
+  width: 70vw;
+  height: 70vh;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.roleselect h1 {
+  color: white;
+  text-align: center;
+}
+.rolebuttons {
+  /* border: 1px solid red; */
+  padding: 20px;
+}
+.rolebuttons button{
+  background-color: #4caf50; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  font-weight: bold; 
+  cursor: pointer; 
+  transition: all 0.3s ease; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  margin: 20px;
+  
+}
+.rolebuttons button:hover {
+  background-color: #45a049; /* Darker green on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow */
+  transform: translateY(-2px);
+}
